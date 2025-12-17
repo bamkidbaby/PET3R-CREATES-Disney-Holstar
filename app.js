@@ -1,8 +1,10 @@
 const hamburger = document.getElementById("hamburger");
 const navLinks = document.getElementById("navLinks");
+const searchBox = document.getElementById("search-box");
 
 hamburger.addEventListener("click", () => {
   navLinks.classList.toggle("active");
+  searchBox.classList.toggle('active')
 });
 
 
@@ -124,4 +126,5 @@ document.querySelectorAll('.slider-section').forEach(section => {
     track.scrollLeft = scrollLeft - walk;
   });
 });
+
 

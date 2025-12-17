@@ -236,6 +236,7 @@ body {
     background: linear-gradient(to right, #030b17 80%, #0c111b00);
     color: #fff;
     z-index: 10;
+    opacity: 1;
     padding: 50px; /* Added padding for better spacing */
     box-sizing: border-box; /* Ensure padding is included in width */
     overflow-wrap: break-word; /* Allow long words to break and wrap */
@@ -276,7 +277,7 @@ body {
 
     .movie-title {
         font-size: clamp(1.2rem, 4vw, 1.8rem); /* Adjusted font size for mobile */
-        margin-top: 10px; /* Reduced margin for mobile */
+        margin-top: 20px; /* Reduced margin for mobile */
         margin-bottom: 5px; /* Reduced margin for mobile */
     }
 
@@ -435,6 +436,7 @@ body {
     }
 
 }
+
 
 
 

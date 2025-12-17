@@ -272,12 +272,12 @@ body {
     
     .slide-content {
         padding: 20px; /* Reduced padding for smaller screens */
-        background: linear-gradient(to right, #030b17 50%, #0c111b00);
+        background: linear-gradient(to right, rgba(3, 11, 23, 0.8) 70%, #0c111b00);
     }
 
     .movie-title {
         font-size: clamp(1.2rem, 4vw, 1.8rem); /* Adjusted font size for mobile */
-        margin-top: 30px; /* Reduced margin for mobile */
+        margin-top: 45px; /* Reduced margin for mobile */
         margin-bottom: 5px; /* Reduced margin for mobile */
     }
 
@@ -436,6 +436,7 @@ body {
     }
 
 }
+
 
 
 

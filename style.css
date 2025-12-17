@@ -65,43 +65,6 @@ body {
     cursor: pointer;
 }
 
-/* MOBILE */
-@media(max-width: 630px) {
-    .search-box {
-        display: none;
-    }
-}
-
-@media (max-width: 768px) {
-
-    .nav-links,
-    .right-container {
-        display: none;
-    }
-
-
-    .nav-links.active {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 80px;
-        left: -25px;
-        background: #0c111b;
-        width: 100%;
-        padding: 20px;
-    }
-
-    .nav-links li {
-        margin-bottom: 15px;
-    }
-
-    .hamburger {
-        display: block;
-        margin-left: auto;
-    }
-}
-
-
 .brand-logo {
     width: 115px;
     height: 45px;
@@ -182,6 +145,60 @@ body {
 
 .login-link:hover {
     color: #bbb;
+}
+
+/* MOBILE */
+@media(max-width: 768px) {
+    .search-box {
+        display: none;
+    }
+
+
+    .search-box.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        top: 260px;
+        left: 0;
+        background: #0c111b;
+        padding: 10px 20px;
+    }
+
+    .search-box.active:focus{
+     width: 100%;
+       position: absolute;
+       left: 0;
+       border-color: #1f80ce;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .nav-links {
+        display: none;
+    }
+
+
+    .nav-links.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: -35px;
+        background: #0c111b;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .nav-links li {
+        margin-bottom: 15px;
+    }
+
+    .hamburger {
+        display: block;
+        margin-left: auto;
+    }
 }
 
 /*---carousel section start---*/
@@ -436,6 +453,7 @@ body {
     }
 
 }
+
 
 
 

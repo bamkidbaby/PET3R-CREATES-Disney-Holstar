@@ -229,59 +229,63 @@ body {
     display: block;
     margin-left: auto;
 }
-
 .slide-content {
     position: absolute;
-    width: 50%;
+    width: 90%; /* Adjusted width to ensure text wraps */
     height: 100%;
     background: linear-gradient(to right, #030b17 80%, #0c111b00);
     color: #fff;
     z-index: 10;
+    padding: 50px; /* Added padding for better spacing */
+    box-sizing: border-box; /* Ensure padding is included in width */
+    overflow-wrap: break-word; /* Allow long words to break and wrap */
+    word-wrap: break-word; /* Old way to allow long words to break and wrap */
+    hyphens: auto; /* Allow words to be hyphenated if needed */
 }
 
 .movie-title {
-    padding-left: 50px;
+    padding-left: 0; /* Removed left padding */
     text-transform: capitalize;
-    margin-top: 80px;
-    margin-bottom: 20px;
-    font-size: clamp(1.8rem, 4vw, 3rem);
+    margin-top: 20px; /* Adjusted margin for better spacing */
+    margin-bottom: 10px; /* Added bottom margin */
+    font-size: clamp(1.5rem, 3vw, 2rem); /* Adjusted font size for better readability */
     line-height: 1.2;
     font-weight: 700;
     letter-spacing: -0.5px;
 }
 
 .movie-desc {
-    width: 85%;
+    width: 100%;
     line-height: 1.6;
-    padding: 0 50px;
     opacity: 0.9;
-    font-size: clamp(0.9rem, 1.5vw, 1.1rem);
+    font-size: clamp(1rem, 2vw, 1.2rem); /* Adjusted font size for better readability */
     font-weight: 400;
 }
 
-@media(max-width:768px) {
+/* Media query for mobile devices */
+@media (max-width: 768px) {
     .carousel {
         height: 85%;
         margin-bottom: -35px;
     }
+    
+    .slide-content {
+        padding: 20px; /* Reduced padding for smaller screens */
+    }
 
     .movie-title {
-        font-size: clamp(1.3rem, 5vw, 1.8rem);
-        margin-top: 40px;
-        margin-bottom: 15px;
-        padding-left: 25px;
+        font-size: clamp(1.2rem, 4vw, 1.8rem); /* Adjusted font size for mobile */
+        margin-top: 10px; /* Reduced margin for mobile */
+        margin-bottom: 5px; /* Reduced margin for mobile */
     }
 
     .movie-desc {
-        width: 90%;
-        line-height: 1.5;
-        padding: 0 25px;
-        font-size: clamp(0.85rem, 2vw, 0.95rem);
+        font-size: clamp(0.9rem, 3vw, 1.1rem); /* Adjusted font size for mobile */
     }
 
-    .video-card {
+        .video-card {
         height: 150%;
-    }
+        }
 }
 
 /*---carousel section end----*/
@@ -430,3 +434,4 @@ body {
     }
 
 }
+

@@ -234,7 +234,6 @@ body {
     width: 90%; /* Adjusted width to ensure text wraps */
     height: 100%;
     background: linear-gradient(to right, #030b17 80%, #0c111b00);
-    opacity: 0.5;
     color: #fff;
     z-index: 10;
     padding: 50px; /* Added padding for better spacing */
@@ -272,7 +271,7 @@ body {
     
     .slide-content {
         padding: 20px; /* Reduced padding for smaller screens */
-        background: linear-gradient(to right, #030b17, #0c111b00 80%);
+        background: linear-gradient(to right, #030b17, #0c111b00 70%);
     }
 
     .movie-title {
@@ -436,6 +435,7 @@ body {
     }
 
 }
+
 
 
 

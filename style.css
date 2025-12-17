@@ -272,7 +272,7 @@ body {
     
     .slide-content {
         padding: 20px; /* Reduced padding for smaller screens */
-        background: linear-gradient(to right, #030b17 40%, #0c111b00);
+        background: linear-gradient(to right, #030b17, #0c111b00 80%);
     }
 
     .movie-title {
@@ -436,6 +436,7 @@ body {
     }
 
 }
+
 
 
 

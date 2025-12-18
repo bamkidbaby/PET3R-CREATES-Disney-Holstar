@@ -279,8 +279,8 @@ body {
     }
 
     .slide-content {
-        width: 65%;
-        background: linear-gradient(to right, #030b170a 10%, #030b170a);
+        width: 50%;
+        background: linear-gradient(to right, #030b17a 10%, #030b170a);
     }
 
     .movie-title {
@@ -449,6 +449,7 @@ body {
     }
 
 }
+
 
 
 

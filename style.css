@@ -274,31 +274,27 @@ body {
 
 @media(max-width:768px) {
     .carousel {
-        height: 85%;
+        height: 75%;
         margin-bottom: -35px;
     }
 
     .slide-content {
-        width: 60%;
+        width: 70%;
         background: linear-gradient(to right, #030b17a, #030b170a 80%);
     }
 
     .movie-title {
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         margin-top: 60px;
         margin-bottom: -35px;
     }
 
     .movie-desc {
-        font-size: 0.75rem;
+        font-size: 1rem;
         line-height: 1.5;
 
     }
-
-    .slider img {
-        width: 100%;
-    }
-
+    
     .video-card {
         height: 150%;
     }
@@ -449,6 +445,7 @@ body {
     }
 
 }
+
 
 
 

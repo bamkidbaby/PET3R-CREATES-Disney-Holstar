@@ -279,18 +279,18 @@ body {
     }
 
     .slide-content {
-        width: 75%;
+        width: 65%;
         background: linear-gradient(to right, #030b170a 10%, #030b170a);
     }
 
     .movie-title {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         margin-top: 60px;
         margin-bottom: -35px;
     }
 
     .movie-desc {
-        font-size: 0.9rem;
+        font-size: 0.75rem;
         line-height: 1.5;
 
     }
@@ -449,6 +449,7 @@ body {
     }
 
 }
+
 
 
 

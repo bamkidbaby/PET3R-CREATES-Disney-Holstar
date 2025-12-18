@@ -283,8 +283,8 @@ body {
     }
 
     .slide-content {
-        width: 100%;
-        background: linear-gradient(to right, #030b17a 10%, #030b170a 90%);
+        width: 60%;
+        background: linear-gradient(to right, #030b170a 10%, #030b10a 90%);
     }
 
     .movie-title {
@@ -301,6 +301,7 @@ body {
     
     .video-card {
         height: 150%;
+        margin-top: -25px;
     }
 }
 /*---carousel section end----*/
@@ -449,6 +450,7 @@ body {
     }
 
 }
+
 
 
 

@@ -273,6 +273,10 @@ body {
 }
 
 @media(max-width:768px) {
+.carousel-container{
+    padding: 20px 10px 0;
+}
+    
     .carousel {
         height: 75%;
         margin-bottom: -35px;
@@ -280,7 +284,7 @@ body {
 
     .slide-content {
         width: 100%;
-        background: linear-gradient(to right, #030b17AA, #030b170a 80%);
+        background: linear-gradient(to right, #030b17a 10%, #030b170a 90%);
     }
 
     .movie-title {
@@ -445,6 +449,7 @@ body {
     }
 
 }
+
 
 
 
